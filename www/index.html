@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="initial-scale=1, width=device-width, viewport-fit=cover">
+        <!-- <meta name="color-scheme" content="light dark"> -->    
+
+        <link rel="stylesheet" href="lib/jquery.mobile-1.4.5.min.css">
+        <link rel="stylesheet" href="css/index.css">
+
+        <script src="lib/jquery.min.js"></script>
+        <script src="lib/jquery.mobile-1.4.5.min.js"></script>
+        <script src="js/index.js"></script>
+        <script src="cordova.js"></script>
+        <title>ContactApp</title>
+    </head>
+    <body>
+        <div data-role="page">
+            <div data-role="header">
+                <h1>Contacts</h1>
+            </div>
+            <div role="main" class="ui-content">
+                <a href="#" data-role="button" data-icon="plus" data-iconpos="right"> Ajouter un contact </a>
+
+                <ul data-role="listview" id="contactList" data-inset="true" data-filter="true" data-filter-placeholder="Rechercher un contact">
+                    <li>
+                        <a href="#">
+                            <img src="./img/conctact_img.jpeg" alt="photo du contact">
+                            <h1>Khadim Fall</h1>
+                            <p>77 509 90 01</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="./img/conctact_img.jpeg" alt="photo du contact">
+                            <h1>Moussa Diallo</h1>
+                            <p>77 509 90 01</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="./img/conctact_img.jpeg" alt="photo du contact">
+                            <h1>Bachir Ndiaye</h1>
+                            <p>77 509 90 01</p>
+                        </a>
+                    </li>
+                </ul>
+            
+            </div>
+            
+            <div data-role="footer" data-position="fixed">
+                <h1>DIC 3 INFORMATIQUE &copy; 2023</h1>
+            </div>
+        </div>
+    </body>
+</html>
